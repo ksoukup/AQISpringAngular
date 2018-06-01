@@ -1,0 +1,32 @@
+<div>
+	<h3 class="text-center">Current Readings</h3>
+</div>
+<div class="container">
+	<br>
+	<div id="regionalCarousel" class="carousel slide" data-ride="carousel">
+
+		<div class="carousel-inner" role="listbox" >
+			<div class="carousel-item active" ng-repeat="region in regions">
+
+					<h3 class="text-center">{{region.regionName}}</h3>
+<!-- 					<div class="row border-bottom ">
+						<div class="col-4">TimeStamp</div>
+						<div class="col-4 border-left">Type</div>
+						<div class="col-2 border-left">Value</div>
+					</div>
+					<div class="row border-bottom" ng-repeat="reading in region.readings">
+						<div class="col-4">{{reading.timeStamp | date:"dd/MM/yyyy 'at' h:mma"}}</div>
+						<div class="col-4 border-left">{{reading.type}}</div>
+						<div class="col-2 border-left">{{reading.value}}</div>
+					</div> -->
+
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#regionalCarousel" data-slide="prev">
+		<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a class="carousel-control-next" href="#regionalCarousel" data-slide="next">
+		  <span class="carousel-control-next-icon"></span>
+		</a>
+	</div>
+</div>
