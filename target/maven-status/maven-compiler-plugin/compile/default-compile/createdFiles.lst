@@ -1,7 +1,0 @@
-com\fdmgroup\hello\Greeting.class
-com\fdmgroup\hello\GreetingController.class
-com\fdmgroup\reading\ReadingController.class
-com\fdmgroup\hello\Application.class
-com\fdmgroup\reading\ReadingId.class
-com\fdmgroup\reading\Reading.class
-com\fdmgroup\reading\ReadingRepository.class
