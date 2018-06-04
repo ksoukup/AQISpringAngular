@@ -22,4 +22,5 @@ app.controller('currentReadings', ['$scope', '$http',
   		$scope.regions = response.data;
   		console.log(response.data.length);
   	});
+
 }]);
